@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/platformio/platform-espressif32.git"
+    "url": "https://github.com/bmorcelli/platform-espressif32.git"
   },
   "version": "6.7.0",
   "frameworks": {
@@ -30,6 +30,12 @@
     }
   },
   "packages": {
+    "framework-arduinoespressif32": {
+      "type": "framework",
+      "optional": true,
+      "owner": "bmorcelli",
+      "version": "https://github.com/bmorcelli/arduino-esp32/releases/download/2.0.17b/esp32-2.0.17b.zip"
+    },
     "toolchain-xtensa-esp32": {
       "type": "toolchain",
       "owner": "espressif",
@@ -77,12 +83,6 @@
       "optional": true,
       "owner": "espressif",
       "version": "~12.1.0"
-    },
-    "framework-arduinoespressif32": {
-      "type": "framework",
-      "optional": true,
-      "owner": "platformio",
-      "version": "~3.20017.0"
     },
     "framework-espidf": {
       "type": "framework",
