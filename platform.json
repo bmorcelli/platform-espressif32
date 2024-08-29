@@ -34,7 +34,7 @@
       "type": "framework",
       "optional": true,
       "owner": "bmorcelli",
-      "version": "https://github.com/bmorcelli/arduino-esp32/releases/download/2.0.17b/esp32-2.0.17b.zip"
+      "version": "https://github.com/bmorcelli/arduino-esp32/releases/download/2.0.17.d/esp32-2.0.17.d.zip"
     },
     "toolchain-xtensa-esp32": {
       "type": "toolchain",
